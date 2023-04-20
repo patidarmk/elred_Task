@@ -1,0 +1,61 @@
+.aboutus {
+    background-color: #fff;
+    border-radius: 5px;
+    padding-left:1.5rem;
+    padding-top: 1rem;
+    height: 85vh;
+    width: 100%;
+    
+}
+
+.aboutus-header {
+    margin-bottom: 1rem;
+}
+
+.aboutus-info {
+    display: flex;
+    align-items: center;
+}
+
+.aboutus-company-details {
+    display: flex;
+    flex-direction: column;
+    gap:.5rem
+}
+
+.aboutus-company-details-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #191919;
+}
+
+.aboutus-company-details-tagline {
+    font-size: 1rem;
+    color: #333333;
+}
+
+.aboutus-text {
+    width: 70%;
+}
+
+.aboutus-logo {
+    width: 8%;
+    margin-left: -1rem;
+}
+
+.aboutus-links {
+    display: flex;
+    list-style-type: none;
+    gap :3rem;
+    margin-top:2.5rem;
+    font-size: 1rem;
+}
+
+.aboutus-main {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,fr);
+    column-gap: 1rem;
+    row-gap: 1rem;
+    padding-right: 1.5rem;
+}
